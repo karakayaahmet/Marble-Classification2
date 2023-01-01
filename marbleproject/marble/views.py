@@ -2,9 +2,7 @@
 from django.shortcuts import render, redirect
 from .models import Resimler
 from .forms import ImageForm
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from keras.models import load_model
-import numpy as np
+
 
 model_path = "yeni-tur_model.h5"
 model_path2 = "catlak.h5"
